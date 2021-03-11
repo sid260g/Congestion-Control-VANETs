@@ -1,0 +1,21 @@
+TitleText: lost packets
+
+"Without Security"
+	
+0       173
+50	225
+100	277
+150	322
+200	378
+250	528
+
+
+"With Security" 	
+	
+
+0       72
+50	109
+100	152
+150	206
+200	251
+250	308

@@ -1,0 +1,15 @@
+#!/bin/bash
+ns Congestion.tcl
+
+input="a1.tr"
+drops0=0 
+
+while IFS=' ' read -r line t node f4 f5 f6 f7 f8 f9 f10 f11 f12
+do
+  if [[ $line == "d" ]] 
+	then
+	((++drops0))
+  fi
+done < "$input"
+
+echo "Packets Dropped = $drops0"

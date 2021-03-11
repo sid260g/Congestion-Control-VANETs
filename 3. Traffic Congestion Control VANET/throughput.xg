@@ -1,0 +1,21 @@
+TitleText: THROUGHPUT ANALYSIS
+
+
+"Without Security"		
+
+0	 0
+100	 213
+150	 344
+200      427
+250	 571
+
+
+"With Security"		
+
+0	 0
+100	 342
+150	 453
+200      506
+250      639
+
+
